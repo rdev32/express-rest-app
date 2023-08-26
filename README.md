@@ -14,19 +14,19 @@ This template uses mainly the following modules
 ### Scripts
 | Command                | Description                                      |
 | ---------------------- | ------------------------------------------------ |
-| `pnpm start`           | Launches the project in production.              |
-| `pnpm dev`             | Launches the project in development mode.        |
-| `pnpm build`           | Transpiles the project ready for production.     |
-| `pnpm format`          | Formats the entire code as configured.           |
-| `pnpm lint`            | Runs ESLint to check the project files.          |
-| `pnpm test`            | Runs Jest tests.                                 |
-| `pnpm coverage`        | Runs Jest tests and generates a coverage report. |
-| `pnpm prisma:reset`    | Resets the Prisma migrations.                    |
-| `pnpm prisma:deploy`   | Generates a migration for deployment             |
-| `pnpm prisma:migrate`  | Runs Prisma migrations in development mode       |
-| `pnpm prisma:generate` | Generates Prisma client.                         |
-| `pnpm prisma:seed`     | Seeds the Prisma database.                       |
-| `pnpm prisma:format`   | Formats the Prisma schema.                       |
+| `npm start`           | Launches the project in production.              |
+| `npm dev`             | Launches the project in development mode.        |
+| `npm build`           | Transpiles the project ready for production.     |
+| `npm format`          | Formats the entire code as configured.           |
+| `npm lint`            | Runs ESLint to check the project files.          |
+| `npm test`            | Runs Jest tests.                                 |
+| `npm coverage`        | Runs Jest tests and generates a coverage report. |
+| `npm prisma:reset`    | Resets the Prisma migrations.                    |
+| `npm prisma:deploy`   | Generates a migration for deployment             |
+| `npm prisma:migrate`  | Runs Prisma migrations in development mode       |
+| `npm prisma:generate` | Generates Prisma client.                         |
+| `npm prisma:seed`     | Seeds the Prisma database.                       |
+| `npm prisma:format`   | Formats the Prisma schema.                       |
 
 ### Database
 If you need a database, I made a repository with a lot of docker [recipees](https://github.com/rdev32/dockerfiles) available
