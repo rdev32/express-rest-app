@@ -12,21 +12,21 @@ This template uses mainly the following modules
 
 *along many other modules that will help you build a medium size REST API*
 ### Scripts
-| Script          | Command                                                |
-|-----------------|--------------------------------------------------------|
-| start           | node build                                             |
-| dev             | nodemon --watch src -e ts --exec "ts-node src"         |
-| build           | tsc                                                    |
-| format          | prettier --write .                                     |
-| lint            | eslint . --ext .ts                                     |
-| test            | jest .                                                 |
-| coverage        | jest --coverage                                        |
-| prisma:reset    | prisma migrate reset                                   |
-| prisma:migrate  | prisma migrate dev --name init                         |
-| prisma:deploy   | prisma migrate deploy --name deploy                    |
-| prisma:generate | prisma generate                                        |
-| prisma:seed     | prisma db seed                                         |
-| prisma:format   | prisma format                                          |
+| Command                | Description                                      |
+| ---------------------- | ------------------------------------------------ |
+| `pnpm start`           | Launches the project in production.              |
+| `pnpm dev`             | Launches the project in development mode.        |
+| `pnpm build`           | Transpiles the project ready for production.     |
+| `pnpm format`          | Formats the entire code as configured.           |
+| `pnpm lint`            | Runs ESLint to check the project files.          |
+| `pnpm test`            | Runs Jest tests.                                 |
+| `pnpm coverage`        | Runs Jest tests and generates a coverage report. |
+| `pnpm prisma:reset`    | Resets the Prisma migrations.                    |
+| `pnpm prisma:deploy`   | Generates a migration for deployment             |
+| `pnpm prisma:migrate`  | Runs Prisma migrations in development mode       |
+| `pnpm prisma:generate` | Generates Prisma client.                         |
+| `pnpm prisma:seed`     | Seeds the Prisma database.                       |
+| `pnpm prisma:format`   | Formats the Prisma schema.                       |
 
 ### Database
 If you need a database, I made a repository with a lot of docker [recipees](https://github.com/rdev32/dockerfiles) available
