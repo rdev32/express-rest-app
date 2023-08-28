@@ -1,10 +1,6 @@
 # Express REST Application Template
 This project aims to be an scaffolding for medium size REST API with the Node stack.
-```bash
-degit github:rdev32/express-rest-app project-name
-```
-### Installation
-Install degit with `npm install -g degit`
+
 ### Modules
 This template uses mainly the following modules
 - Prisma ORM
